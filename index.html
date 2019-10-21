@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Youtube Video Player Clone</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <main class="main-container">
-      <header class="header">
-        <nav class="nav-bar">
-          <img src="images/bar-menu.png" class="icons" alt="nav-menu" />
-          <img src="images/logo.png" class="icons" alt="logo" />
-          <div class="wrapper">
-            <input type="search" name="search" placeholder="Search" />
-            <img src="images/search.png" class="icons" alt="search-icon" />
-          </div>
-          <img src="images/upload-button.png" class="icons" alt="" />
-          <button>Sign in</button>
-        </nav>
-        <div class="alert">
-          <img src="images/customer.png" class="icons" alt="chat-person" />
-          <div>
-            <span class="white">Choose your language</span><button>X</button>
-          </div>
-        </div>
-        <div class="learn-more">
-          <p>
-            You're viewing YouTube in English (US). You can
-            <span class="blue">change this preference below.</span>
-          </p>
-          <span class="blue">Learn more</span>
-        </div>
-      </header>
-      <section class="mid-section">
-        <select name="" id="">
-          <img src="images/customer.png" class="icons" alt="chat-person" />
-          <option value="Language:Engkish"> Language</option>
-        </select>
-        <video src="https://www.youtube.com/watch?v=V74l_zS1x8E"></video>
-        <div class="odin-videodes">
-          <h3>Contributing to Open Source Part I: The Easy Way</h3>
-          <img src="images/odin.jpg" alt="odin-tag" />
-          <span class="subscribe">
+        <header class="header">
+            <nav class="nav-bar">
+                <img src="images/bar-menu.png" class="icons" alt="nav-menu" />
+                <img src="images/logo.png" class="icons" alt="logo" />
+                <div class="wrapper">
+                    <input type="search" name="search" placeholder="Search" />
+                    <img src="images/search.png" class="icons" alt="search-icon" />
+                </div>
+                <img src="images/upload-button.png" class="icons" alt="" />
+                <button>Sign in</button>
+            </nav>
+            <div class="alert">
+                <img src="images/customer.png" class="icons" alt="chat-person" />
+                <div>
+                    <span class="white">Choose your language</span><button>X</button>
+                </div>
+            </div>
+            <div class="learn-more">
+                <p>
+                    You're viewing YouTube in English (US). You can
+                    <span class="blue">change this preference below.</span>
+                </p>
+                <span class="blue">Learn more</span>
+            </div>
+        </header>
+        <section class="mid-section">
+            <video controls width="700">
+          <source
+            src="https://www.youtube.com/watch?v=V74l_zS1x8E"
+            type="video/mp4"
+          />
+          Sorry, your browser doesn't support embedded videos.
+        </video>
+            <div class="odin-videodes">
+                <h3>Contributing to Open Source Part I: The Easy Way</h3>
+                <img src="images/odin.jpg" alt="odin-tag" />
+                <span class="subscribe">
             The Odin Project<button>Subscribe</button
             ><span class="sub-number">799</span>
+                </span>
+                <span class="views">50,016 views</span>
+            </div>
+            <div class="thumbnail">
+                <img src="images/add-icon.png" class="icons" alt="plus" />
+                <img src="images/share-option.png" class="icons" alt="share" />
+                <img src="images/more.png" class="icons" alt="more" />
+                <span class="thumbs">
+            <img
+              src="images/thumb-up-button.png"
+              class="icons"
+              alt="thumb-up"
+            />359
+            <img
+              src="images/thumbs-down-silhouette.png"
+              class="icons"
+              alt="thumb-down"
+            />14
           </span>
-          <span class="views">50,016 views</span>
-        </div>
-        <div class="thumbnail">
-          <img src="images/add-icon.png" class="icons" alt="plus" />
-          <img src="images/share-option.png" class="icons" alt="share" />
-          <img src="images/more.png" class="icons" alt="more" />
-          <span class="thumbs">
-            <img src="images/thumb-up-button.png" class="icons" alt="thumb-up" />359
-            <img src="images/thumbs-down-silhouette.png" class="icons" alt="thumb-down" />14
-          </span>
-        </div>
-        <div class="more-info">
-          <h4>Published on Feb 27, 2014</h4>
-          <p>
-            How do you contribute to open source? In this video, I'll describe
-            the easiest way to make a simple contribution to an open source
-            project -- without using the command line, a text editor, "forking a
-            repo", or even touching Git outside of Github. I'll also describe
-            what kinds of contributions open source software projects are
-            typically looking for. As an example, I use submitting a student
-            solution to a web development exercise from The Odin Project, a free
-            online curriculum for learning web development with Ruby on Rails.
-            You can find more information about that project at
-            http://theodinproject.com.
-          </p>
-          <hr />
-          <h4>SHOW MORE</h4>
-        </div>
-        <div class="loading">
-          <img src="images/loading-icon.gif" alt="loading" /><span
-            >Loading...</span
+            </div>
+            <div class="more-info">
+                <h4>Published on Feb 27, 2014</h4>
+                <p>
+                    How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll
+                    also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for
+                    learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
+                </p>
+                <hr />
+                <h4>SHOW MORE</h4>
+            </div>
+            <div class="loading">
+                <img src="images/loading-icon.gif" alt="loading" /><span>Loading...</span
           >
         </div>
       </section>
@@ -101,31 +104,32 @@
               <option>Language: English</option>
             </select>
           </span>
-          <select class="bottom-spans">
-              <option>Location: Netherlands</option>
-              </select>
-          <select class="bottom-spans">
-              <option>Restricted Mode: Off</option>
-              </select>
-          <span class="bottom-spans">
-            <img src="images/hourglass.png" class="icons" alt="hour">
-              History
+                <select class="bottom-spans">
+            <option>Location: Netherlands</option>
+          </select>
+                <select class="bottom-spans">
+            <option>Restricted Mode: Off</option>
+          </select>
+                <span class="bottom-spans">
+            <img src="images/hourglass.png" class="icons" alt="hour" />
+            History
           </span>
-          <span class="bottom-spans">
-            <img src="images/question.png" class="icons" alt="quest">
+                <span class="bottom-spans">
+            <img src="images/question.png" class="icons" alt="quest" />
             Help
           </span>
-          <hr>
-          <br />
-          <a href="#">About</a>
-          <a href="#">Press</a>
-          <a href="#">Copyright</a>
-          <a href="#">Creators</a>
-          <a href="#">Advertise</a>
-          <a href="#">Developers</a>
-          <br/>
-        </nav>
-      </footer>
+                <hr />
+                <br />
+                <a href="#">About</a>
+                <a href="#">Press</a>
+                <a href="#">Copyright</a>
+                <a href="#">Creators</a>
+                <a href="#">Advertise</a>
+                <a href="#">Developers</a>
+                <br />
+                </nav>
+                </footer>
     </main>
-  </body>
+</body>
+
 </html>
