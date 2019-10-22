@@ -30,7 +30,7 @@ body, html {
 .main-container {
   display: grid;
   grid-template: 1fr 15fr 1fr/1fr;
-  width: 1440px;
+  width: 1024px;
   height: 1900px;
   padding: 0 2px 30px 2px;
   /* max-height: 1000000px; */
@@ -45,7 +45,7 @@ p,h4 {
 
 
 .header {
-  width: 1440px;
+  width: 1024px;
 }
 
 .nav-bar {
@@ -145,10 +145,20 @@ input {
 /* MID-SECTION */
 
 .mid-section {
-  width: 1440px;
-  margin-top: 30px;
   display: grid;
-  grid-template: 1fr/10fr 4fr;
+  grid-template: 1fr/7fr 4fr;
+  height: 2300px; 
+  width: 1024px;
+  margin-top: 30px;
+
+}
+
+.left-col {
+}
+
+iframe {
+  height: 315px;
+  width: 560px;
 }
 
 .sub-but {
@@ -169,7 +179,56 @@ input {
   text-align: center;
 }
 /* ASIDE-DIV */
+.autoplay-wrap {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  align-items: center;
+  float: right;
+}
 
+.icon-toggle {
+  height: 25px;
+  width: 28px;
+}
+
+.icon-info {
+  height: 15px;
+  width: 15px;
+}
+
+.aside-vids {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 350px;
+  margin: 10px;
+}
+
+.aside-vids-info {
+  padding-left: 4px;
+}
+
+.aside-details {
+  display:inline;
+}
+
+.aside-details-info {
+  font-weight: bold;
+}
+
+.side-vids-wrap {
+  position: relative;
+  width: max-content;
+}
+
+.time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #d7d7e6;
+}
 /* BOTTOM-DIV */
 
 /* GRID */
