@@ -38,7 +38,7 @@ body, html {
 
 /* NAVBAR */
 
-p,h4 {
+p,h4,h3 {
   display: inline-block;
   margin-left: 20px;
 }
@@ -156,14 +156,39 @@ input {
 .left-col {
 }
 
-iframe {
-  height: 315px;
-  width: 560px;
+.odin-videodes {
+  padding: 10px;
 }
 
-.sub-but {
+iframe {
+  height: 350px;
+  width: 620px;
+}
+
+.author-wrap {
+  height: 80px;
+}
+
+.odin-wrapper {
+  display: inline-block;
+  width: 220px;
+}
+
+.subscribe {
+  display: inline-block;
+  height:max-content;
+}
+
+.subscribe-count {
+  height: 30px;
+  width: max-content;
+  display: inline-block;
+  border: 1px solid #a7a7b7;
+}
+
+.subscribe-icon {
   height: 25px;
-  background-color: red;
+  width: 100px;
 }
 
 .sub-number {
@@ -171,12 +196,23 @@ iframe {
   border: 1px solid #a7a7b7;
 }
 
-.article {
-  
+.views {
+  height: 20px;
+  margin-top: 35px;
+  float: right;
+}
+
+.view-count {
+  border-bottom: 2px solid #167ac6;
 }
 
 .show-more {
   text-align: center;
+}
+
+.loading {
+  height: 100px;
+  padding-top: 50px;
 }
 /* ASIDE-DIV */
 .autoplay-wrap {
