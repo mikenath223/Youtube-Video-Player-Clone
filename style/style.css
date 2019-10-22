@@ -31,7 +31,7 @@ body, html {
   display: grid;
   grid-template: 1fr 15fr 1fr/1fr;
   width: 1024px;
-  height: 1900px;
+  height: 2800px; 
   padding: 0 2px 30px 2px;
   /* max-height: 1000000px; */
 }
@@ -142,6 +142,11 @@ input {
   color: #4d4d5f;
 }
 
+
+.inline-block {
+  display: inline-block;
+}
+
 /* MID-SECTION */
 
 .mid-section {
@@ -151,9 +156,6 @@ input {
   width: 1024px;
   margin-top: 30px;
 
-}
-
-.left-col {
 }
 
 .odin-videodes {
@@ -170,19 +172,16 @@ iframe {
 }
 
 .odin-wrapper {
-  display: inline-block;
   width: 220px;
 }
 
 .subscribe {
-  display: inline-block;
   height:max-content;
 }
 
 .subscribe-count {
   height: 30px;
   width: max-content;
-  display: inline-block;
   border: 1px solid #a7a7b7;
 }
 
@@ -213,6 +212,22 @@ iframe {
 .loading {
   height: 100px;
   padding-top: 50px;
+}
+
+.thumbnail {
+  height: 50px;
+  padding-top: 10px;
+}
+
+.add-stuff {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  float: left;
+}
+
+.thumbs {
+  float: right;
 }
 /* ASIDE-DIV */
 .autoplay-wrap {
