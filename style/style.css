@@ -136,6 +136,10 @@ input {
   /* align-content: flex-start; */
 }
 
+.sub-but {
+  height: 25px;
+  background-color: red;
+}
 /* ASIDE-DIV */
 
 

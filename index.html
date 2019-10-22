@@ -49,20 +49,25 @@
         </iframe>
         <div class="odin-videodes">
           <h3>Contributing to Open Source Part I: The Easy Way</h3>
+          <div class="author-wrap">
           <img src="images/odin.jpg" alt="odin-tag" />
           <span class="subscribe">
-            The Odin Project<button>Subscribe</button><span class="sub-number">799</span>
+            The Odin Project<br />
+            <button class="sub-but white">Subscribe</button><span class="sub-number">799</span>
           </span>
-          <span class="views">50,016 views</span>
         </div>
-        <div class="thumbnail">
-          <img src="images/plus-sign.png" class="icons" alt="plus" />
-          <img src="images/share-option.png" class="icons" alt="share" />
-          <img src="images/more.png" class="icons" alt="more" />
-          <span class="thumbs">
-            <img src="images/thumb-up-button.png" class="icons" alt="thumb-up" />359
-            <img src="images/thumbs-down-silhouette.png" class="icons" alt="thumb-down" />14
-          </span>
+          <span class="views">50,016 views</span>
+          <div class="thumbnail">
+            <div class="add-stuff">
+              <img src="images/plus-sign.png" class="icons" alt="plus" />
+              <img src="images/share-option.png" class="icons" alt="share" />
+              <img src="images/more.png" class="icons" alt="more" />
+            </div>
+            <span class="thumbs">
+              <img src="images/thumb-up-button.png" class="icons" alt="thumb-up" />359
+              <img src="images/thumbs-down-silhouette.png" class="icons" alt="thumb-down" />14
+            </span>
+          </div>
         </div>
         <div class="more-info">
           <h4>Published on Feb 27, 2014</h4>
@@ -133,28 +138,28 @@
       </nav>
     </footer>
   </main>
-      <script>
-        document.firstElementChild.onmouseover = handler;
-        let showId = document.createElement('h3');
-        showId.setAttribute(
-            'style',
-            'position:fixed; top:0; background:maroon;color: white;'
-        );
-        document.body.appendChild(showId);
+  <script>
+    document.firstElementChild.onmouseover = handler;
+    let showId = document.createElement('h3');
+    showId.setAttribute(
+      'style',
+      'position:fixed; top:0; background:maroon;color: white;'
+    );
+    document.body.appendChild(showId);
 
-        function handler(event) {
-            function str(el) {
-                if (!el) return 'null';
-                return el.className || el.tagName;
-            }
-            showId.innerHTML =
-                'targetID = ' +
-                str(event.target) +
-                '<br>' +
-                ' relatedTargetID = ' +
-                str(event.relatedTarget);
-        }
-    </script>
+    function handler(event) {
+      function str(el) {
+        if (!el) return 'null';
+        return el.className || el.tagName;
+      }
+      showId.innerHTML =
+        'targetID = ' +
+        str(event.target) +
+        '<br>' +
+        ' relatedTargetID = ' +
+        str(event.relatedTarget);
+    }
+  </script>
 </body>
 
 </html>
