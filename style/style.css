@@ -1,3 +1,10 @@
+*{border:1px solid red}
+**{border:1px solid red}
+***{border:1px solid red}
+****{border:1px solid red}
+*****{border:1px solid red}
+
+
 *,
 *:before,
 *:after {
@@ -12,17 +19,14 @@ html {
 
 .main-container {
   display: grid;
-  grid-template: 1fr 5fr 1fr/1fr;
-  width: 1024px;
+  grid-template: 1fr 15fr 1fr/1fr;
+  width: 1450px;
   height: 1900px;
+  padding: 0 2px 30px 2px;
   /* max-height: 1000000px; */
 }
 
-.mid-section {
-  display: grid;
-  grid-template: 1fr/6fr 4fr;
-  /* align-content: flex-start; */
-}
+
 
 /* NAVBAR */
 p {
@@ -31,8 +35,7 @@ p {
 }
 
 .header {
-  height: 768px;
-  width: 1024px;
+  width: 1450px;
 }
 
 .nav-bar {
@@ -125,8 +128,16 @@ input {
 }
 
 /* MID-SECTION */
+.mid-section {
+  width: 1450px;
+  margin-top: 30px;
+  display: grid;
+  grid-template: 1fr/6fr 4fr;
+  /* align-content: flex-start; */
+}
 
 /* ASIDE-DIV */
+
 
 /* BOTTOM-DIV */
 
