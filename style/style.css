@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+.header {
+    height: 768px;
+    width: 1024px;
+}
+.nav-bar {
+    display: grid;
+    grid-template: 1fr/
+}
+.logo {
+    height: 3em;
+    width: 8em;
+}
+.logo-wrap {
+    position: relative;
+}
+.logo-des {
+    position: absolute;
+}
+.color-ash {color: #A7A7B7;}
+
+
+/* MID-SECTION */
+
+
+/* ASIDE-DIV */
+
+
+/* BOTTOM-DIV */
+
+
+/* GRID */
