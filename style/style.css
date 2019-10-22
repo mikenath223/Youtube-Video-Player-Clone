@@ -12,8 +12,9 @@ html {
 
 .main-container {
   display: grid;
-  grid-template: 1fr/6fr 4fr;
+  grid-template: 10fr 1fr/1fr;
   width: 1024px;
+  max-height: 1000000px;
 }
 
 /* NAVBAR */
