@@ -1,131 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Youtube Video Player Clone</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Youtube Video Player Clone</title>
-  <link rel="stylesheet" href="/style/style.css">
-</head>
+  <body>
+    <main class="main-container">
+        <header class="header">
+          <nav class="nav-bar">
+            <img src="images/menu.png" class="icons" alt="nav-menu" />
+            <div class="logo-wrap">
+              <img src="images/logo.png" class="logo" alt="logo" />
+              <span class="logo-des color-ash">NL</span>
+            </div>
+            <div class="src-wrap">
+              <input type="search" name="search" placeholder="Search" />
+              <div class="srcIcon-wrap">
+                <img src="images/search.png" class="icons" alt="search-icon" />
+              </div>
+            </div>
+            <img src="images/upload-button.png" class="icons" alt="" />
+            <button class="sign-but white ">Sign in</button>
+          </nav>
+          <div class="alert">
+            <div class="lang-wrap">
+              <img src="images/question.png" alt="chat-person" />
+              <span class="white">Choose your language</span>
+            </div>
+            <div class="white close">X</div>
+          </div>
+          <div class="learn-more">
+            <p>
+              You're viewing YouTube in <b>English (US).</b> You can
+              <span class="blue">change this preference below.</span>
+            </p>
+            <span class="learn-info blue">Learn more</span>
+          </div>
+        </header>
+      <section class="mid-section">
+        <div class="left-col">
+          <video controls width="700">
+            <source
+              src="https://www.youtube.com/watch?v=V74l_zS1x8E"
+              type="video/mp4"
+            />
+            Sorry, your browser doesn't support embedded videos.
+          </video>
+          <div class="odin-videodes">
+            <h3>Contributing to Open Source Part I: The Easy Way</h3>
+            <img src="images/odin.jpg" alt="odin-tag" />
+            <span class="subscribe">
+              The Odin Project<button>Subscribe</button
+              ><span class="sub-number">799</span>
+            </span>
+            <span class="views">50,016 views</span>
+          </div>
+          <div class="thumbnail">
+            <img src="images/plus-sign.png" class="icons" alt="plus" />
+            <img src="images/share-option.png" class="icons" alt="share" />
+            <img src="images/more.png" class="icons" alt="more" />
+            <span class="thumbs">
+              <img
+                src="images/thumb-up-button.png"
+                class="icons"
+                alt="thumb-up"
+              />359
+              <img
+                src="images/thumbs-down-silhouette.png"
+                class="icons"
+                alt="thumb-down"
+              />14
+            </span>
+          </div>
+          <div class="more-info">
+            <h4>Published on Feb 27, 2014</h4>
+            <p>
+              How do you contribute to open source? In this video, I'll describe
+              the easiest way to make a simple contribution to an open source
+              project -- without using the command line, a text editor, "forking
+              a repo", or even touching Git outside of Github. I'll also
+              describe what kinds of contributions open source software projects
+              are typically looking for. As an example, I use submitting a
+              student solution to a web development exercise from The Odin
+              Project, a free online curriculum for learning web development
+              with Ruby on Rails. You can find more information about that
+              project at http://theodinproject.com.
+            </p>
+            <hr />
+            <h5>SHOW MORE</h5>
+          </div>
+          <div class="loading">
+            <img src="images/loading-icon.gif" alt="loading" /><span
+              >Loading...</span
+            >
+          </div>
+        </div>
 
-<body>
-  <main class="main-container">
-    <header class="header">
-      <nav class="nav-bar">
-        <img src="images/menu.png" class="icons" alt="nav-menu" />
-        <div class="logo-wrap">
-          <img src="images/logo.png" class="logo" alt="logo" />
-          <span class="logo-des color-ash">NL</span>
-        </div>
-        <div class="src-wrap">
-          <input type="search" name="search" placeholder="Search" />
-          <div class="srcIcon-wrap"><img src="images/search.png" class="icons" alt="search-icon" /></div>
-        </div>
-        <img src="images/upload-button.png" class="icons" alt="" />
-        <button class="sign-but white ">Sign in</button>
-      </nav>
-      <div class="alert">
-        <img src="images/question.png" alt="chat-person" />
-        <div>
-          <span class="white">Choose your language</span><button class="white close">X</button>
-        </div>
-      </div>
-      <div class="learn-more">
-        <p>
-          You're viewing YouTube in English (US). You can
-          <span class="blue">change this preference below.</span>
-        </p>
-        <span class="blue">Learn more</span>
-      </div>
-    </header>
-    <section class="mid-section">
-      <video controls width="700">
-        <source src="https://www.youtube.com/watch?v=V74l_zS1x8E" type="video/mp4" />
-        Sorry, your browser doesn't support embedded videos.
-      </video>
-      <div class="odin-videodes">
-        <h3>Contributing to Open Source Part I: The Easy Way</h3>
-        <img src="images/odin.jpg" alt="odin-tag" />
-        <span class="subscribe">
-          The Odin Project<button>Subscribe</button><span class="sub-number">799</span>
-        </span>
-        <span class="views">50,016 views</span>
-      </div>
-      <div class="thumbnail">
-        <img src="images/plus-sign.png" class="icons" alt="plus" />
-        <img src="images/share-option.png" class="icons" alt="share" />
-        <img src="images/more.png" class="icons" alt="more" />
-        <span class="thumbs">
-          <img src="images/thumb-up-button.png" class="icons" alt="thumb-up" />359
-          <img src="images/thumbs-down-silhouette.png" class="icons" alt="thumb-down" />14
-        </span>
-      </div>
-      <div class="more-info">
-        <h4>Published on Feb 27, 2014</h4>
-        <p>
-          How do you contribute to open source? In this video, I'll describe the easiest way to make a simple
-          contribution to an open source project -- without using the command line, a text editor, "forking a repo", or
-          even touching Git outside of Github. I'll
-          also describe what kinds of contributions open source software projects are typically looking for. As an
-          example, I use submitting a student solution to a web development exercise from The Odin Project, a free
-          online curriculum for
-          learning web development with Ruby on Rails. You can find more information about that project at
-          http://theodinproject.com.
-        </p>
-        <hr />
-        <h4>SHOW MORE</h4>
-      </div>
-      <div class="loading">
-        <img src="images/loading-icon.gif" alt="loading" /><span>Loading...</span>
-      </div>
-    </section>
+        <aside class="aside">
+          <div><img src="images/first.jpg" /></div>
+          <div><img src="images/2nd.jpg" /></div>
+          <div><img src="images/3rd.jpg" /></div>
+          <div><img src="images/4th.jpg" /></div>
+          <div><img src="images/5th.jpg" /></div>
+          <div><img src="images/6th.jpg" /></div>
+          <div><img src="images/7th.jpg" /></div>
+          <div><img src="images/8th.jpg" /></div>
+        </aside>
+      </section>
 
-    <aside class="aside">
-      <div><img src="images/first.jpg" /></div>
-      <div><img src="images/2nd.jpg" /></div>
-      <div><img src="images/3rd.jpg" /></div>
-      <div><img src="images/4th.jpg" /></div>
-      <div><img src="images/5th.jpg" /></div>
-      <div><img src="images/6th.jpg" /></div>
-      <div><img src="images/7th.jpg" /></div>
-      <div><img src="images/8th.jpg" /></div>
-    </aside>
-    <footer>
-      <nav>
-        <img src="images/logo.png" class="icons" />
-        <span class="bottom-spans">
-          <img src="images/question.png" class="icons" alt="chat-person" />
-          <select>
-            <option>Language: English</option>
+      <footer>
+        <div class="top-footer">
+          <img src="images/logo.png" />
+          <span class="bottom-spans">
+            <img src="images/question.png" class="icons" alt="chat-person" />
+            <select>
+              <option>Language: English</option>
+            </select>
+          </span>
+          <select class="bottom-spans">
+            <option>Location: Netherlands</option>
           </select>
-        </span>
-        <select class="bottom-spans">
-          <option>Location: Netherlands</option>
-        </select>
-        <select class="bottom-spans">
-          <option>Restricted Mode: Off</option>
-        </select>
-        <span class="bottom-spans">
-          <img src="images/hourglass.png" class="icons" alt="hour" />
-          History
-        </span>
-        <span class="bottom-spans">
-          <img src="images/question-mark.png" class="icons" alt="quest" />
-          Help
-        </span>
-        <hr />
-        <br />
-        <a href="#">About</a>
-        <a href="#">Press</a>
-        <a href="#">Copyright</a>
-        <a href="#">Creators</a>
-        <a href="#">Advertise</a>
-        <a href="#">Developers</a>
-        <br />
-      </nav>
-    </footer>
-  </main>
-</body>
-
+          <select class="bottom-spans">
+            <option>Restricted Mode: Off</option>
+          </select>
+          <span class="bottom-spans">
+            <img src="images/hourglass.png" class="icons" alt="hour" />
+            History
+          </span>
+          <span class="bottom-spans">
+            <img src="images/question-mark.png" class="icons" alt="quest" />
+            Help
+          </span>
+          <hr />
+        </div>
+        <nav>
+          <a href="#">About</a>
+          <a href="#">Press</a>
+          <a href="#">Copyright</a>
+          <a href="#">Creators</a>
+          <a href="#">Advertise</a>
+          <a href="#">Developers</a>
+        </nav>
+      </footer>
+    </main>
+  </body>
 </html>
