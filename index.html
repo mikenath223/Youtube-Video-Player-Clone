@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Youtube Video Player Clone</title>
+		<link rel="stylesheet" href="style/style.css" />
+	</head>
+	<body>
+		<main class="main-container">
+			<header class="header">
+				<nav class="nav-bar">
+					<img src="images/menu.png" class="icons" alt="nav-menu" />
+					<div class="logo-wrap">
+						<img src="images/logo.png" class="logo" alt="logo" />
+						<span class="logo-des color-ash">NL</span>
+					</div>
+					<div class="src-wrap">
+						<input type="search" name="search" placeholder="Search" />
+						<div class="srcIcon-wrap">
+							<img src="images/search.png" class="icons" alt="search-icon" />
+						</div>
+					</div>
+					<img src="images/upload-button.png" class="icons" alt="upload" />
+					<button class="sign-but white ">Sign in</button>
+				</nav>
+				<div class="alert">
+					<div class="lang-wrap">
+						<img src="images/question.png" alt="chat-person" />
+						<span class="white">Choose your language</span>
+					</div>
+					<div class="white close">X</div>
+				</div>
+				<div class="learn-more">
+					<p>
+          You're viewing YouTube in
+						<b>English (US).</b> You can
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Youtube Video Player Clone</title>
-  <link rel="stylesheet" href="style/style.css" />
-</head>
+						<span class="blue">change this preference below.</span>
+					</p>
+					<span class="learn-info blue">Learn more</span>
+				</div>
+			</header>
+			<section class="mid-section">
+				<div class="left-col">
+					<iframe src="https://www.youtube.com/embed/V74l_zS1x8E"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div class="odin-videodes">
+						<h2>Contributing to Open Source Part I: The Easy Way</h2>
+						<div class="author-wrap">
+							<div class="odin-wrapper inline-block">
+								<img src="images/odin.jpg" alt="odin-tag" />
+								<div class="subscribe inline-block">
+                The Odin Project
+									<br />
+									<div class="subscribe-count inline-block">
+										<img src="images/youtube.png" class="subscribe-icon" alt="youtube">
+											<h4 class="count">799</h4>
+										</div>
+									</div>
+								</div>
+								<div class="views">
+									<h3 class="count view-count ash">50,016 views</h3>
+								</div>
+							</div>
+							<hr>
+								<div class="thumbnail">
+									<div class="add-stuff">
+										<span class="thumb-wrap ash">
+											<img src="images/plus-sign.png" class="icons" alt="plus" />Add to
+										</span>
+										<span class="thumb-wrap ash">
+											<img src="images/share-option.png" class="icons" alt="share" />Share
+										</span>
+										<span class="thumb-wrap ash">
+											<img src="images/more.png" class="icons" alt="more" />More
+										</span>
+									</div>
+									<div class="thumbs">
+										<img src="images/thumb-up-button.png" class="icons" alt="thumb-up" />359
 
-<body>
-  <main class="main-container">
-    <header class="header">
-      <nav class="nav-bar">
-        <img src="images/menu.png" class="icons" alt="nav-menu" />
-        <div class="logo-wrap">
-          <img src="images/logo.png" class="logo" alt="logo" />
-          <span class="logo-des color-ash">NL</span>
-        </div>
-        <div class="src-wrap">
-          <input type="search" name="search" placeholder="Search" />
-          <div class="srcIcon-wrap">
-            <img src="images/search.png" class="icons" alt="search-icon" />
-          </div>
-        </div>
-        <img src="images/upload-button.png" class="icons" alt="upload" />
-        <button class="sign-but white ">Sign in</button>
-      </nav>
-      <div class="alert">
-        <div class="lang-wrap">
-          <img src="images/question.png" alt="chat-person" />
-          <span class="white">Choose your language</span>
-        </div>
-        <div class="white close">X</div>
-      </div>
-      <div class="learn-more">
-        <p>
-          You're viewing YouTube in <b>English (US).</b> You can
-          <span class="blue">change this preference below.</span>
-        </p>
-        <span class="learn-info blue">Learn more</span>
-      </div>
-    </header>
-    <section class="mid-section">
-      <div class="left-col">
-        <iframe src="https://www.youtube.com/embed/V74l_zS1x8E"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <div class="odin-videodes">
-          <h2>Contributing to Open Source Part I: The Easy Way</h2>
-          <div class="author-wrap">
-            <div class="odin-wrapper inline-block">
-              <img src="images/odin.jpg" alt="odin-tag" />
-              <div class="subscribe inline-block">
-                The Odin Project<br />
-                <div class="subscribe-count inline-block">
-                  <img src="images/youtube.png" class="subscribe-icon" alt="youtube">
-                  <!-- <button class="sub-but white">Subscribe</button> -->
-                  <h4 class="count">799</h4>
-                </div>
-              </div>
-            </div>
-            <div class="views">
-              <h3 class="count view-count ash">50,016 views</h3>
-            </div>
-          </div>
-          <hr>
-          <div class="thumbnail">
-            <div class="add-stuff">
-              <span class="thumb-wrap ash"><img src="images/plus-sign.png" class="icons" alt="plus" />Add to</span>
-              <span class="thumb-wrap ash"><img src="images/share-option.png" class="icons" alt="share" />Share</span>
-              <span class="thumb-wrap ash"><img src="images/more.png" class="icons" alt="more" />More</span>
-            </div>
-            <div class="thumbs">
-              <img src="images/thumb-up-button.png" class="icons" alt="thumb-up" />359
-              <img src="images/thumbs-down-silhouette.png" class="icons" alt="thumb-down" />14
-            </div>
-          </div>
-        </div>
-        <div class="more-info">
-          <div class="article">
-            <h4>Published on Feb 27, 2014</h4>
-            <p>
+										<img src="images/thumbs-down-silhouette.png" class="icons" alt="thumb-down" />14
+
+									</div>
+								</div>
+							</div>
+							<div class="more-info">
+								<div class="article">
+									<h4>Published on Feb 27, 2014</h4>
+									<p>
               How do you contribute to open source? In this video, I'll describe
               the easiest way to make a simple contribution to an open source
               project -- without using the command line, a text editor, "forking
@@ -93,292 +100,388 @@
               with Ruby on Rails. You can find more information about that
               project at http://theodinproject.com.
             </p>
-          </div>
-          <hr />
-          <div class="show-more">
-            <h5 class="ash">SHOW MORE</h5>
-          </div>
-        </div>
-        <div class="loading show-more">
-          <img src="images/loading-icon.gif" alt="loading" /><span>Loading...</span>
-        </div>
-      </div>
-
-      <aside class="aside">
-        <div class="aside-wrap">
-          <div class="aside-top">
-            <h4>Up next</h4>
-            <div class="autoplay-wrap">
-              <h4 class="ash">Autoplay</h4>
-              <img src="images/information.png" class="icon-info" alt="info">
-              <img src="images/toggle.png" class="icon-toggle" alt="toggle">
-            </div>
-          </div>
-          <ol class="next-videos-list">
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/1st.jpg" alt="aside-img"/>
-              <time datetime="14m 25s">14:25</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Contributing to Open Source Part II: The Real Way</span> <br>
-              <h5 class="aside-details ash">The Odin Project</h5> <br>
-              <h5 class="aside-details ash">29,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/2nd.jpg" alt="aside-img"/>
-              <time datetime="42m 35s">42:35</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'
-                by</span> <br>
-              <h5 class="aside-details ash">imtiana</h5> <br>
-              <h5 class="aside-details ash">981,543 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/3rd.jpg" alt="aside-img"/>
-              <time datetime="19m 11s">19:11</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Programming in Visual Basic .Net How to Connect Access Databsae to</span>
-              <br>
-              <h5 class="aside-details ash">iBasskung</h5> <br>
-              <h5 class="aside-details ash">16,130,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/4th.jpg" alt="aside-img"/>
-              <time datetime="8m 53s">8:53</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">REST API concepts and examples</span> <br>
-              <h5 class="aside-details ash">WebConcepts</h5> <br>
-              <h5 class="aside-details ash">3,580,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/5th.jpg" alt="aside-img"/>
-              <time datetime="17m 41s">17:41</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">GitHub - Why Microsift Paid $7.5B for the Future of Software!</span> <br>
-              <h5 class="aside-details ash">Valuetainment</h5> <br>
-              <h5 class="aside-details ash">444,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/6th.jpg" alt="aside-img"/>
-              <time datetime="20m 32s">20:32</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">How to create a 3D Terrain with Google Maps and height maps in
-                Photoshop</span> <br>
-              <h5 class="aside-details ash">Orange Box Ceo</h5> <br>
-              <h5 class="aside-details ash">6,269,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/7th.jpg" alt="aside-img"/>
-              <time datetime="8m 37s">8:37</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Convoluted Neural Networks (CNNs) explained</span> <br>
-              <h5 class="aside-details ash">deeplizard</h5> <br>
-              <h5 class="aside-details ash">239,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/8th.jpg" alt="aside-img"/>
-              <time datetime="16m 4s">16:04</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Top 10 Linux Job Interviews</span> <br>
-              <h5 class="aside-details ash">tutoriaLinux</h5> <br>
-              <h5 class="aside-details ash">1,029,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/9th.jfif" alt="aside-img"/>
-              <time datetime="17m 11s">17:11</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Running an SQL Injection Attack - Computerphile</span> <br>
-              <h5 class="aside-details ash">The Odin Project</h5> <br>
-              <h5 class="aside-details ash">29,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/10th.jfif" alt="aside-img"/>
-              <time datetime="26m 1s">26:01</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">How to prepare for product based companies??</span> <br>
-              <h5 class="aside-details ash">Gate Lectures by Ravidddddcdcd</h5> <br>
-              <h5 class="aside-details ash">291,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/11th.jfif" alt="aside-img"/>
-              <time datetime="25m 1s">25:01</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Visual Basic .Net : Search in Access Database - DataGridView</span> <br>
-              <h5 class="aside-details ash">iBasskung</h5> <br>
-              <h5 class="aside-details ash">6,029,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/13th.jfif" alt="aside-img"/>
-              <time datetime="9m 4s">9:04</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">How to convert pdf to word without software</span> <br>
-              <h5 class="aside-details ash">karim hamdadi</h5> <br>
-              <h5 class="aside-details ash">12,229,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/14th.jfif" alt="aside-img"/>
-              <time datetime="12m 19s">12:19</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">What Python Projects Should I Build to Get a Job</span> <br>
-              <h5 class="aside-details ash">Real Python</h5> <br>
-              <h5 class="aside-details ash">129,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/15th.jfif" alt="aside-img"/>
-              <time datetime="8m 19s">8:19</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Your First GitHub Pull Request (in 10 Mins)</span> <br>
-              <h5 class="aside-details ash">Jackson Bates</h5> <br>
-              <h5 class="aside-details ash">39,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/16th.jfif" alt="aside-img"/>
-              <time datetime="11m 35s">11:35</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Top signs of an inexperienced programmer</span> <br>
-              <h5 class="aside-details ash">TechLead</h5> <br>
-              <h5 class="aside-details ash">929,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/17th.jfif" alt="aside-img"/>
-              <time datetime="11m 6s">11:06</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Why I left my job at google (as a software engineer)</span> <br>
-              <h5 class="aside-details ash">TechLead</h5> <br>
-              <h5 class="aside-details ash">1,629,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/18th.jfif" alt="aside-img"/>
-              <time datetime="19m 25s">19:25</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Max Stoiber - I want you to contribute to open source</span> <br>
-              <h5 class="aside-details ash">Reactrally</h5> <br>
-              <h5 class="aside-details ash">3,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/19th.jfif" alt="aside-img"/>
-              <time datetime="14m 25s">14:25</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">How to Learn Anything...Fast - Josh Kaufman</span> <br>
-              <h5 class="aside-details ash">The RSA</h5> <br>
-              <h5 class="aside-details ash">3,157,985 views</h5>
-            </div>
-          </div></li>
-            <li><div class="aside-vids">
-            <div class="side-vids-wrap">
-              <img src="images/20th.jfif" alt="aside-img"/>
-              <time datetime="5m 59s">5:59</time>
-            </div>
-            <div class="aside-vids-info">
-              <span class="aside-details-info">Git & GitHub: Pull requests(10/11)</span> <br>
-              <h5 class="aside-details ash">Codecourse</h5> <br>
-              <h5 class="aside-details ash">778,624 views</h5>
-            </div>
-          </div></li>
-        </ol>
-          <hr />
-          <div class="show-more">
-            <h5 class="ash">SHOW MORE</h5>
-          </div>
-        </div>
-      </aside>
-    </section>
-
-    <footer>
-      <div class="top-footer">
-        <img src="images/logo.png" alt="logo"/>
-        <span class="bottom-spans">
-          <img src="images/question.png" class="icons" alt="chat-person" />
-          <select>
-            <option>Language: English</option>
-          </select>
-        </span>
-        <select class="bottom-spans">
-          <option>Location: Netherlands</option>
-        </select>
-        <select class="bottom-spans">
-          <option>Restricted Mode: Off</option>
-        </select>
-        <span class="bottom-spans">
-          <img src="images/hourglass.png" class="icons" alt="hour" />
+								</div>
+								<hr />
+								<div class="show-more">
+									<h5 class="ash">SHOW MORE</h5>
+								</div>
+							</div>
+							<div class="loading show-more">
+								<img src="images/loading-icon.gif" alt="loading" />
+								<span>Loading...</span>
+							</div>
+						</div>
+						<aside class="aside">
+							<div class="aside-wrap">
+								<div class="aside-top">
+									<h4>Up next</h4>
+									<div class="autoplay-wrap">
+										<h4 class="ash">Autoplay</h4>
+										<img src="images/information.png" class="icon-info" alt="info">
+											<img src="images/toggle.png" class="icon-toggle" alt="toggle">
+											</div>
+										</div>
+										<ol class="next-videos-list">
+											<li>
+												<div class="aside-vids">
+													<div class="side-vids-wrap">
+														<img src="images/1st.jpg" alt="aside-img"/>
+														<time datetime="14m 25s">14:25</time>
+													</div>
+													<div class="aside-vids-info">
+														<span class="aside-details-info">Contributing to Open Source Part II: The Real Way</span>
+														<br>
+															<h5 class="aside-details ash">The Odin Project</h5>
+															<br>
+																<h5 class="aside-details ash">29,985 views</h5>
+															</div>
+														</div>
+													</li>
+													<li>
+														<div class="aside-vids">
+															<div class="side-vids-wrap">
+																<img src="images/2nd.jpg" alt="aside-img"/>
+																<time datetime="42m 35s">42:35</time>
+															</div>
+															<div class="aside-vids-info">
+																<span class="aside-details-info">How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft'
+                by</span>
+																<br>
+																	<h5 class="aside-details ash">imtiana</h5>
+																	<br>
+																		<h5 class="aside-details ash">981,543 views</h5>
+																	</div>
+																</div>
+															</li>
+															<li>
+																<div class="aside-vids">
+																	<div class="side-vids-wrap">
+																		<img src="images/3rd.jpg" alt="aside-img"/>
+																		<time datetime="19m 11s">19:11</time>
+																	</div>
+																	<div class="aside-vids-info">
+																		<span class="aside-details-info">Programming in Visual Basic .Net How to Connect Access Databsae to</span>
+																		<br>
+																			<h5 class="aside-details ash">iBasskung</h5>
+																			<br>
+																				<h5 class="aside-details ash">16,130,985 views</h5>
+																			</div>
+																		</div>
+																	</li>
+																	<li>
+																		<div class="aside-vids">
+																			<div class="side-vids-wrap">
+																				<img src="images/4th.jpg" alt="aside-img"/>
+																				<time datetime="8m 53s">8:53</time>
+																			</div>
+																			<div class="aside-vids-info">
+																				<span class="aside-details-info">REST API concepts and examples</span>
+																				<br>
+																					<h5 class="aside-details ash">WebConcepts</h5>
+																					<br>
+																						<h5 class="aside-details ash">3,580,985 views</h5>
+																					</div>
+																				</div>
+																			</li>
+																			<li>
+																				<div class="aside-vids">
+																					<div class="side-vids-wrap">
+																						<img src="images/5th.jpg" alt="aside-img"/>
+																						<time datetime="17m 41s">17:41</time>
+																					</div>
+																					<div class="aside-vids-info">
+																						<span class="aside-details-info">GitHub - Why Microsift Paid $7.5B for the Future of Software!</span>
+																						<br>
+																							<h5 class="aside-details ash">Valuetainment</h5>
+																							<br>
+																								<h5 class="aside-details ash">444,985 views</h5>
+																							</div>
+																						</div>
+																					</li>
+																					<li>
+																						<div class="aside-vids">
+																							<div class="side-vids-wrap">
+																								<img src="images/6th.jpg" alt="aside-img"/>
+																								<time datetime="20m 32s">20:32</time>
+																							</div>
+																							<div class="aside-vids-info">
+																								<span class="aside-details-info">How to create a 3D Terrain with Google Maps and height maps in
+                Photoshop</span>
+																								<br>
+																									<h5 class="aside-details ash">Orange Box Ceo</h5>
+																									<br>
+																										<h5 class="aside-details ash">6,269,985 views</h5>
+																									</div>
+																								</div>
+																							</li>
+																							<li>
+																								<div class="aside-vids">
+																									<div class="side-vids-wrap">
+																										<img src="images/7th.jpg" alt="aside-img"/>
+																										<time datetime="8m 37s">8:37</time>
+																									</div>
+																									<div class="aside-vids-info">
+																										<span class="aside-details-info">Convoluted Neural Networks (CNNs) explained</span>
+																										<br>
+																											<h5 class="aside-details ash">deeplizard</h5>
+																											<br>
+																												<h5 class="aside-details ash">239,985 views</h5>
+																											</div>
+																										</div>
+																									</li>
+																									<li>
+																										<div class="aside-vids">
+																											<div class="side-vids-wrap">
+																												<img src="images/8th.jpg" alt="aside-img"/>
+																												<time datetime="16m 4s">16:04</time>
+																											</div>
+																											<div class="aside-vids-info">
+																												<span class="aside-details-info">Top 10 Linux Job Interviews</span>
+																												<br>
+																													<h5 class="aside-details ash">tutoriaLinux</h5>
+																													<br>
+																														<h5 class="aside-details ash">1,029,985 views</h5>
+																													</div>
+																												</div>
+																											</li>
+																											<li>
+																												<div class="aside-vids">
+																													<div class="side-vids-wrap">
+																														<img src="images/9th.jfif" alt="aside-img"/>
+																														<time datetime="17m 11s">17:11</time>
+																													</div>
+																													<div class="aside-vids-info">
+																														<span class="aside-details-info">Running an SQL Injection Attack - Computerphile</span>
+																														<br>
+																															<h5 class="aside-details ash">The Odin Project</h5>
+																															<br>
+																																<h5 class="aside-details ash">29,985 views</h5>
+																															</div>
+																														</div>
+																													</li>
+																													<li>
+																														<div class="aside-vids">
+																															<div class="side-vids-wrap">
+																																<img src="images/10th.jfif" alt="aside-img"/>
+																																<time datetime="26m 1s">26:01</time>
+																															</div>
+																															<div class="aside-vids-info">
+																																<span class="aside-details-info">How to prepare for product based companies??</span>
+																																<br>
+																																	<h5 class="aside-details ash">Gate Lectures by Ravidddddcdcd</h5>
+																																	<br>
+																																		<h5 class="aside-details ash">291,985 views</h5>
+																																	</div>
+																																</div>
+																															</li>
+																															<li>
+																																<div class="aside-vids">
+																																	<div class="side-vids-wrap">
+																																		<img src="images/11th.jfif" alt="aside-img"/>
+																																		<time datetime="25m 1s">25:01</time>
+																																	</div>
+																																	<div class="aside-vids-info">
+																																		<span class="aside-details-info">Visual Basic .Net : Search in Access Database - DataGridView</span>
+																																		<br>
+																																			<h5 class="aside-details ash">iBasskung</h5>
+																																			<br>
+																																				<h5 class="aside-details ash">6,029,985 views</h5>
+																																			</div>
+																																		</div>
+																																	</li>
+																																	<li>
+																																		<div class="aside-vids">
+																																			<div class="side-vids-wrap">
+																																				<img src="images/13th.jfif" alt="aside-img"/>
+																																				<time datetime="9m 4s">9:04</time>
+																																			</div>
+																																			<div class="aside-vids-info">
+																																				<span class="aside-details-info">How to convert pdf to word without software</span>
+																																				<br>
+																																					<h5 class="aside-details ash">karim hamdadi</h5>
+																																					<br>
+																																						<h5 class="aside-details ash">12,229,985 views</h5>
+																																					</div>
+																																				</div>
+																																			</li>
+																																			<li>
+																																				<div class="aside-vids">
+																																					<div class="side-vids-wrap">
+																																						<img src="images/14th.jfif" alt="aside-img"/>
+																																						<time datetime="12m 19s">12:19</time>
+																																					</div>
+																																					<div class="aside-vids-info">
+																																						<span class="aside-details-info">What Python Projects Should I Build to Get a Job</span>
+																																						<br>
+																																							<h5 class="aside-details ash">Real Python</h5>
+																																							<br>
+																																								<h5 class="aside-details ash">129,985 views</h5>
+																																							</div>
+																																						</div>
+																																					</li>
+																																					<li>
+																																						<div class="aside-vids">
+																																							<div class="side-vids-wrap">
+																																								<img src="images/15th.jfif" alt="aside-img"/>
+																																								<time datetime="8m 19s">8:19</time>
+																																							</div>
+																																							<div class="aside-vids-info">
+																																								<span class="aside-details-info">Your First GitHub Pull Request (in 10 Mins)</span>
+																																								<br>
+																																									<h5 class="aside-details ash">Jackson Bates</h5>
+																																									<br>
+																																										<h5 class="aside-details ash">39,985 views</h5>
+																																									</div>
+																																								</div>
+																																							</li>
+																																							<li>
+																																								<div class="aside-vids">
+																																									<div class="side-vids-wrap">
+																																										<img src="images/16th.jfif" alt="aside-img"/>
+																																										<time datetime="11m 35s">11:35</time>
+																																									</div>
+																																									<div class="aside-vids-info">
+																																										<span class="aside-details-info">Top signs of an inexperienced programmer</span>
+																																										<br>
+																																											<h5 class="aside-details ash">TechLead</h5>
+																																											<br>
+																																												<h5 class="aside-details ash">929,985 views</h5>
+																																											</div>
+																																										</div>
+																																									</li>
+																																									<li>
+																																										<div class="aside-vids">
+																																											<div class="side-vids-wrap">
+																																												<img src="images/17th.jfif" alt="aside-img"/>
+																																												<time datetime="11m 6s">11:06</time>
+																																											</div>
+																																											<div class="aside-vids-info">
+																																												<span class="aside-details-info">Why I left my job at google (as a software engineer)</span>
+																																												<br>
+																																													<h5 class="aside-details ash">TechLead</h5>
+																																													<br>
+																																														<h5 class="aside-details ash">1,629,985 views</h5>
+																																													</div>
+																																												</div>
+																																											</li>
+																																											<li>
+																																												<div class="aside-vids">
+																																													<div class="side-vids-wrap">
+																																														<img src="images/18th.jfif" alt="aside-img"/>
+																																														<time datetime="19m 25s">19:25</time>
+																																													</div>
+																																													<div class="aside-vids-info">
+																																														<span class="aside-details-info">Max Stoiber - I want you to contribute to open source</span>
+																																														<br>
+																																															<h5 class="aside-details ash">Reactrally</h5>
+																																															<br>
+																																																<h5 class="aside-details ash">3,985 views</h5>
+																																															</div>
+																																														</div>
+																																													</li>
+																																													<li>
+																																														<div class="aside-vids">
+																																															<div class="side-vids-wrap">
+																																																<img src="images/19th.jfif" alt="aside-img"/>
+																																																<time datetime="14m 25s">14:25</time>
+																																															</div>
+																																															<div class="aside-vids-info">
+																																																<span class="aside-details-info">How to Learn Anything...Fast - Josh Kaufman</span>
+																																																<br>
+																																																	<h5 class="aside-details ash">The RSA</h5>
+																																																	<br>
+																																																		<h5 class="aside-details ash">3,157,985 views</h5>
+																																																	</div>
+																																																</div>
+																																															</li>
+																																															<li>
+																																																<div class="aside-vids">
+																																																	<div class="side-vids-wrap">
+																																																		<img src="images/20th.jfif" alt="aside-img"/>
+																																																		<time datetime="5m 59s">5:59</time>
+																																																	</div>
+																																																	<div class="aside-vids-info">
+																																																		<span class="aside-details-info">Git & GitHub: Pull requests(10/11)</span>
+																																																		<br>
+																																																			<h5 class="aside-details ash">Codecourse</h5>
+																																																			<br>
+																																																				<h5 class="aside-details ash">778,624 views</h5>
+																																																			</div>
+																																																		</div>
+																																																	</li>
+																																																</ol>
+																																																<hr />
+																																																<div class="show-more">
+																																																	<h5 class="ash">SHOW MORE</h5>
+																																																</div>
+																																															</div>
+																																														</aside>
+																																													</section>
+																																													<footer>
+																																														<div class="top-footer">
+																																															<img src="images/logo.png" alt="logo"/>
+																																															<span class="bottom-spans">
+																																																<img src="images/question.png" class="icons" alt="chat-person" />
+																																																<select>
+																																																	<option>Language: English</option>
+																																																</select>
+																																															</span>
+																																															<select class="bottom-spans">
+																																																<option>Location: Netherlands</option>
+																																															</select>
+																																															<select class="bottom-spans">
+																																																<option>Restricted Mode: Off</option>
+																																															</select>
+																																															<span class="bottom-spans">
+																																																<img src="images/hourglass.png" class="icons" alt="hour" />
           History
-        </span>
-        <span class="bottom-spans">
-          <img src="images/question-mark.png" class="icons" alt="quest" />
-          Help
-        </span>
-        <hr />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Copyright</a></li>
-          <li><a href="#">Creators</a></li>
-          <li><a href="#">Advertise</a></li>
-          <li><a href="#">Developers</a></li>
-        </ul><br>
-        <ul>
-          <li><a href="">Terms</a></li>
-          <li><a href="">Privacy</a></li>
-          <li><a href="">Policy & Safety</a></li>
-          <li><a href="">Test new features</a></li>
-        </ul>
-      </nav>
-    </footer>
-  </main>
-</body>
 
-</html>
+																																															</span>
+																																															<span class="bottom-spans">
+																																																<img src="images/question-mark.png" class="icons" alt="quest" />
+          Help
+
+																																															</span>
+																																															<hr />
+																																														</div>
+																																														<nav>
+																																															<ul>
+																																																<li>
+																																																	<a href="#">About</a>
+																																																</li>
+																																																<li>
+																																																	<a href="#">Press</a>
+																																																</li>
+																																																<li>
+																																																	<a href="#">Copyright</a>
+																																																</li>
+																																																<li>
+																																																	<a href="#">Creators</a>
+																																																</li>
+																																																<li>
+																																																	<a href="#">Advertise</a>
+																																																</li>
+																																																<li>
+																																																	<a href="#">Developers</a>
+																																																</li>
+																																															</ul>
+																																															<br>
+																																																<ul>
+																																																	<li>
+																																																		<a href="">Terms</a>
+																																																	</li>
+																																																	<li>
+																																																		<a href="">Privacy</a>
+																																																	</li>
+																																																	<li>
+																																																		<a href="">Policy & Safety</a>
+																																																	</li>
+																																																	<li>
+																																																		<a href="">Test new features</a>
+																																																	</li>
+																																																</ul>
+																																															</nav>
+																																														</footer>
+																																													</main>
+																																												</body>
+																																											</html>
