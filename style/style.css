@@ -1,0 +1,284 @@
+body, html {
+  height: max-content;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+}
+
+p, h4, h3 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img[alt="avatar"] {
+  cursor: pointer;  
+}
+
+
+.main-container {
+  display: grid;
+  grid-template: 1fr 15fr 1fr/1fr;
+  width: 1024px;
+  height: 2800px;
+  padding: 0 2px 30px 2px;
+}
+
+.header {
+  width: 1024px;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template: 1fr/ 1fr 4fr 8fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  padding: 7px 20px;
+}
+
+.logo {
+  height: 3em;
+  width: 8em;
+}
+
+.logo-wrap {
+  position: relative;
+}
+
+.logo-des {
+  position: absolute;
+}
+
+.color-ash {
+  color: #a7a7b7;
+}
+
+.src-wrap {
+  display: flex;
+  height: 30px;
+  width: 500px;
+  border: 1px solid #a7a7b7;
+  margin-top: 5px;
+}
+
+.srcIcon-wrap {
+  padding: 5px 15px;
+  border-left: 1px solid #a7a7b7;
+}
+
+.sign-but {
+  height: 30px;
+  background-color: rgb(22, 122, 198);
+}
+
+.icons {
+  height: 18px;
+  width: 18px;
+}
+
+input {
+  width: 480px;
+  padding-left: 5px;
+  border-style: none;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  float: right;
+}
+
+.alert {
+  padding: 7px 15px;
+  background-color: #167ac6;
+  height: 40px;
+}
+
+.lang-wrap {
+  margin: 0 10px;
+  float: left;
+}
+
+.learn-more {
+  padding: 0 20px;
+  border: 2px solid #167ac6;
+}
+
+.learn-info {
+  float: right;
+  padding-top: 15px;
+}
+
+.blue {
+  color: #167ac6;
+}
+
+.white {
+  color: #fff;
+}
+
+.ash {
+  color: #4d4d5f;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.mid-section {
+  display: grid;
+  grid-template: 1fr/7fr 2fr;
+  height: 2300px;
+  width: 1024px;
+  margin-top: 30px;
+}
+
+.odin-videodes {
+  padding: 10px;
+}
+
+iframe {
+  height: 450px;
+  width: 700px;
+}
+
+.author-wrap {
+  height: 80px;
+}
+
+.odin-wrapper {
+  width: 220px;
+}
+
+.subscribe-count {
+  height: 25px;
+  border: 1px solid #a7a7b7;
+}
+
+.subscribe-icon {
+  height: 25px;
+  width: 100px;
+}
+
+.sub-number {
+  width: 45px;
+  border: 1px solid #a7a7b7;
+}
+
+.views {
+  height: 20px;
+  margin-top: 60px;
+  float: right;
+}
+
+.view-count {
+  border-bottom: 2px solid #167ac6;
+}
+
+.count {
+  margin: 0;
+}
+
+.show-more {
+  text-align: center;
+}
+
+.loading {
+  height: 100px;
+  padding-top: 50px;
+}
+
+.thumbnail {
+  height: 50px;
+  padding-top: 10px;
+}
+
+.add-stuff {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  float: left;
+}
+
+.thumbs {
+  float: right;
+}
+
+.autoplay-wrap {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  align-items: center;
+  float: right;
+}
+
+.icon-toggle {
+  height: 25px;
+  width: 28px;
+}
+
+.icon-info {
+  height: 15px;
+  width: 15px;
+}
+
+.aside-vids {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 350px;
+  margin: 10px;
+}
+
+.aside-vids-info {
+  padding-left: 4px;
+}
+
+.aside-details {
+  display: inline;
+}
+
+.aside-details-info {
+  font-weight: bold;
+}
+
+.side-vids-wrap {
+  position: relative;
+  width: max-content;
+}
+
+time {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #d7d7e6;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.next-videos-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.next-videos-list li {
+  display: inline-block;
+}
