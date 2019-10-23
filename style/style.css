@@ -30,7 +30,7 @@ body, html {
 .main-container {
   display: grid;
   grid-template: 1fr 15fr 1fr/1fr;
-  width: 1024px;
+  width: 1430px;
   height: 2800px; 
   padding: 0 2px 30px 2px;
   /* max-height: 1000000px; */
@@ -45,7 +45,7 @@ p,h4,h3 {
 
 
 .header {
-  width: 1024px;
+  width: 1430px;
 }
 
 .nav-bar {
@@ -151,11 +151,10 @@ input {
 
 .mid-section {
   display: grid;
-  grid-template: 1fr/7fr 4fr;
+  grid-template: 1fr/7fr 2fr;
   height: 2300px; 
-  width: 1024px;
+  width: 1430px;
   margin-top: 30px;
-
 }
 
 .odin-videodes {
@@ -164,7 +163,7 @@ input {
 
 iframe {
   height: 350px;
-  width: 620px;
+  width: 820px;
 }
 
 .author-wrap {
@@ -173,15 +172,14 @@ iframe {
 
 .odin-wrapper {
   width: 220px;
+
 }
 
 .subscribe {
-  height:max-content;
 }
 
 .subscribe-count {
-  height: 30px;
-  width: max-content;
+  height: 25px;
   border: 1px solid #a7a7b7;
 }
 
@@ -197,12 +195,16 @@ iframe {
 
 .views {
   height: 20px;
-  margin-top: 35px;
+  margin-top: 60px;
   float: right;
 }
 
 .view-count {
   border-bottom: 2px solid #167ac6;
+}
+
+.count {
+  margin: 0;
 }
 
 .show-more {
