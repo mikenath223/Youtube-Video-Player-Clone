@@ -31,7 +31,7 @@ body, html {
   display: grid;
   grid-template: 1fr 15fr 1fr/1fr;
   width: 1430px;
-  height: 2800px; 
+  height: 2800px;
   padding: 0 2px 30px 2px;
   /* max-height: 1000000px; */
 }
@@ -152,7 +152,7 @@ input {
 .mid-section {
   display: grid;
   grid-template: 1fr/7fr 2fr;
-  height: 2300px; 
+  height: 2300px;
   width: 1430px;
   margin-top: 30px;
 }
@@ -272,7 +272,8 @@ iframe {
   width: max-content;
 }
 
-.time {
+time {
+  display: inline;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -282,3 +283,22 @@ iframe {
 /* BOTTOM-DIV */
 
 /* GRID */
+
+/* FOOTER */
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+.next-videos-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.next-videos-list li {
+  display: inline-block;
+}
