@@ -29,13 +29,13 @@ img[alt="avatar"] {
 .main-container {
   display: grid;
   grid-template: 1fr 15fr 1fr/1fr;
-  width: 1430px;
+  width: 1024px;
   height: 2800px;
   padding: 0 2px 30px 2px;
 }
 
 .header {
-  width: 1430px;
+  width: 1024px;
 }
 
 .nav-bar {
@@ -139,7 +139,7 @@ input {
   display: grid;
   grid-template: 1fr/7fr 2fr;
   height: 2300px;
-  width: 1430px;
+  width: 1024px;
   margin-top: 30px;
 }
 
@@ -149,7 +149,7 @@ input {
 
 iframe {
   height: 450px;
-  width: 920px;
+  width: 700px;
 }
 
 .author-wrap {
