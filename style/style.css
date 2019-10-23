@@ -1,22 +1,4 @@
-/* * {
-  border: 1px solid red
-}
 
-** {
-  border: 1px solid red
-}
-
-*** {
-  border: 1px solid red
-}
-
-**** {
-  border: 1px solid red
-}
-
-***** {
-  border: 1px solid red
-} */
 
 
 
@@ -33,10 +15,8 @@ body, html {
   width: 1430px;
   height: 2800px;
   padding: 0 2px 30px 2px;
-  /* max-height: 1000000px; */
 }
 
-/* NAVBAR */
 
 p,h4,h3 {
   display: inline-block;
@@ -147,7 +127,6 @@ input {
   display: inline-block;
 }
 
-/* MID-SECTION */
 
 .mid-section {
   display: grid;
@@ -228,7 +207,7 @@ iframe {
 .thumbs {
   float: right;
 }
-/* ASIDE-DIV */
+
 .autoplay-wrap {
   display: flex;
   justify-content: space-around;
@@ -280,11 +259,6 @@ time {
   background-color: #000;
   color: #d7d7e6;
 }
-/* BOTTOM-DIV */
-
-/* GRID */
-
-/* FOOTER */
 
 footer ul {
   list-style-type: none;
