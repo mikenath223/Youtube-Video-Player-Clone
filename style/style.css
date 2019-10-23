@@ -1,12 +1,18 @@
-
-
-
-
 body, html {
   height: max-content;
-  width:max-content;
+  width: max-content;
   margin: 0;
   padding: 0;
+}
+
+p, h4, h3 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .main-container {
@@ -16,13 +22,6 @@ body, html {
   height: 2800px;
   padding: 0 2px 30px 2px;
 }
-
-
-p,h4,h3 {
-  display: inline-block;
-  margin-left: 20px;
-}
-
 
 .header {
   width: 1430px;
@@ -122,11 +121,9 @@ input {
   color: #4d4d5f;
 }
 
-
 .inline-block {
   display: inline-block;
 }
-
 
 .mid-section {
   display: grid;
@@ -141,8 +138,8 @@ input {
 }
 
 iframe {
-  height: 350px;
-  width: 820px;
+  height: 450px;
+  width: 920px;
 }
 
 .author-wrap {
@@ -151,7 +148,6 @@ iframe {
 
 .odin-wrapper {
   width: 220px;
-
 }
 
 .subscribe-count {
@@ -239,7 +235,7 @@ iframe {
 }
 
 .aside-details {
-  display:inline;
+  display: inline;
 }
 
 .aside-details-info {
