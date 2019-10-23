@@ -295,3 +295,12 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+
+.next-videos-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.next-videos-list li {
+  display: inline-block;
+}
