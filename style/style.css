@@ -1,4 +1,4 @@
-* {
+/* * {
   border: 1px solid red
 }
 
@@ -16,7 +16,7 @@
 
 ***** {
   border: 1px solid red
-}
+} */
 
 
 
@@ -173,9 +173,6 @@ iframe {
 .odin-wrapper {
   width: 220px;
 
-}
-
-.subscribe {
 }
 
 .subscribe-count {
