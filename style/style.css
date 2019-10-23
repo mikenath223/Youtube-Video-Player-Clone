@@ -275,7 +275,8 @@ iframe {
   width: max-content;
 }
 
-.time {
+time {
+  display: inline;
   position: absolute;
   bottom: 0;
   right: 0;
