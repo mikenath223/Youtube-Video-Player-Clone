@@ -2,13 +2,13 @@
 For our first collaborative project at Microverse my coding partner and i make a clone of the youtube video player page using HTML5 sematics and clean code rules.
 
 ## Mock-up resource used
--Our clone was made using this resource: http://archive.fo/Bss88
+ * Our clone was made using this resource: http://archive.fo/Bss88
 
 ## Tools used
--HTML5 and CSS3
+ * HTML5 and CSS3
 
 ## Live Page link 
--Here is a link to our live page: https://mikenath223.github.io/Youtube-Video-Player-Clone/
+ *Here is a link to our live page: https://mikenath223.github.io/Youtube-Video-Player-Clone/
 
 ## Features and Implemented guidelines
 <details>
@@ -41,7 +41,7 @@ For our first collaborative project at Microverse my coding partner and i make a
   <p>After-thoughts: It was a fun and great project to work on</p>
 </details>
 
-## Screeshot
-![Youtube Video Player Clone - Screenshot](https://user-images.githubusercontent.com/33323077/67412687-a22a1d00-f5b7-11e9-804d-16fa7bfe960c.png)
+## Snapshot
+![Youtube Video Player Clone - Screenshot](images/snapshot.png)
 
 

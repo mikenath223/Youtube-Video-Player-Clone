@@ -1,6 +1,5 @@
-body, html {
-  height: max-content;
-  width: max-content;
+body{
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }
@@ -25,17 +24,15 @@ img[alt="avatar"] {
   cursor: pointer;  
 }
 
-
 .main-container {
   display: grid;
   grid-template: 1fr 15fr 1fr/1fr;
-  width: 1024px;
+  padding: 5px 10px;
   height: 2800px;
-  padding: 0 2px 30px 2px;
 }
 
 .header {
-  width: 1024px;
+  width: 99%;
 }
 
 .nav-bar {
@@ -43,7 +40,7 @@ img[alt="avatar"] {
   grid-template: 1fr/ 1fr 4fr 8fr 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   align-items: center;
-  padding: 7px 20px;
+  padding: 0 20px;
 }
 
 .logo {
@@ -66,7 +63,7 @@ img[alt="avatar"] {
 .src-wrap {
   display: flex;
   height: 30px;
-  width: 500px;
+  width: 70%;
   border: 1px solid #a7a7b7;
   margin-top: 5px;
 }
@@ -137,9 +134,8 @@ input {
 
 .mid-section {
   display: grid;
-  grid-template: 1fr/7fr 2fr;
-  height: 2300px;
-  width: 1024px;
+  grid-template: 1fr/5fr 2fr;
+  width: 99%;
   margin-top: 30px;
 }
 
@@ -149,7 +145,7 @@ input {
 
 iframe {
   height: 450px;
-  width: 700px;
+  width: 98%;
 }
 
 .author-wrap {
@@ -236,7 +232,7 @@ iframe {
   display: flex;
   justify-content: space-around;
   height: 100px;
-  width: 350px;
+  width: 96%;
   margin: 10px;
 }
 
