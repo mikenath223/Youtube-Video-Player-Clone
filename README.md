@@ -1,11 +1,11 @@
 # Youtube Video Player Clone
-For our first collaborative project at Microverse my coding partner and i make a clone of the youtube video player page using HTML5 sematics and clean code rules.
+For our first collaborative project at Microverse my coding partner and I make a clone of the youtube video player page using HTML5 sematics and clean code rules.
 
 ## Mock-up resource used
  * Our clone was made using this resource: http://archive.fo/Bss88
 
 ## Tools used
- * HTML5 and CSS3
+ * HTML and CSS
 
 ## Live Page link 
  *Here is a link to our live page: https://mikenath223.github.io/Youtube-Video-Player-Clone/
